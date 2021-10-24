@@ -20,6 +20,7 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
+const prefix = "/portfolio";
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
@@ -27,7 +28,7 @@ const Projects = () => (
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, visit }) => (
         <BlogCard key={id}>
-          <Img src={image} />
+          <Img src={prefix + image} />
           <TitleContent>
             <HeaderThree title>{title}</HeaderThree>
           </TitleContent>
