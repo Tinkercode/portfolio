@@ -20,7 +20,7 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
-const prefix = "/portfolio";
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
