@@ -36,13 +36,13 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>Innovating one project at a time</CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href="https://github.com/Tinkercode">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://linkedin.com">
+          <SocialIcons href="https://www.linkedin.com/in/tarun-wakharkar/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://twitter.com">
+          <SocialIcons href="https://twitter.com/TWakharkar">
             <AiFillTwitterSquare size="3rem" />
           </SocialIcons>
         </SocialContainer>
